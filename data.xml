@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<survey>
+    <description>
+        <title>问卷填写说明</title>
+        <p>（一）问卷采取无记名方式进行。</p>
+        <p>（二）除有特别标明可多选外，其余均为单选题。</p>
+        <p>（三）回答时，请在所选内容前打 “√”。</p>
+        <p>（四）若选“其它”一项，请在旁作具体说明。</p>
+    </description>
+    <information>
+        <title>一、被调查者个人基本情况：</title>
+        <item type="dx">
+            <hd>１、年龄：</hd>
+            <bd>
+                <option>Ａ、35岁以下</option>
+                <option>Ｂ、36至45岁</option>
+                <option>Ｃ、46至55岁</option>
+                <option>Ｄ、56岁至60岁</option>
+            </bd>
+        </item>
+        <item type="dx">
+            <hd>２、性别：</hd>
+            <bd>
+                <option>Ａ、男</option>
+                <option>Ｂ、女</option>
+            </bd>
+        </item>
+        <item type="dx">
+            <hd>３、文化程度：</hd>
+            <bd>
+                <option>Ａ、博士研究生</option>
+                <option>Ｂ、硕士研究生</option>
+                <option>Ｃ、大学本科</option>
+                <option>Ｄ、大专以下</option>
+            </bd>
+        </item>
+        <item type="dx">
+            <hd>４、职务、职称或技术等级：</hd>
+            <bd>
+                <option>Ａ、正高</option>
+                <option>Ｂ、副高</option>
+                <option>Ｃ、中级</option>
+                <option>Ｄ、初级</option>
+                <option>E、局级</option>
+                <option>F、处级</option>
+                <option>G、科级</option>
+                <option>H、五级职员</option>
+                <option>I、六级职员</option>
+                <option>J、七级职员</option>
+                <option>K、八级职员</option>
+            </bd>
+        </item>
+        <item type="dx">
+            <hd>５、单位类别：</hd>
+            <bd>
+                <option>Ａ、机关</option>
+                <option>Ｂ、事业单位</option>
+                <option>Ｃ、台站</option>
+            </bd>
+        </item>
+    </information>
+</survey>
