@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <survey>
     <description>
-        <title>问卷填写说明</title>
+        <notice>问卷填写说明</notice>
         <p>（一）问卷采取无记名方式进行。</p>
         <p>（二）除有特别标明可多选外，其余均为单选题。</p>
         <p>（三）回答时，请在所选内容前打 “√”。</p>
         <p>（四）若选“其它”一项，请在旁作具体说明。</p>
     </description>
-    <information>
+    <section>
         <title>一、被调查者个人基本情况：</title>
         <item type="dx">
             <hd>１、年龄：</hd>
@@ -48,6 +48,7 @@
                 <option>I、六级职员</option>
                 <option>J、七级职员</option>
                 <option>K、八级职员</option>
+
             </bd>
         </item>
         <item type="dx">
@@ -58,5 +59,66 @@
                 <option>Ｃ、台站</option>
             </bd>
         </item>
-    </information>
+    </section>
+    <section>
+        <title>二、问卷内容：</title>
+        <item type="dx">
+            <hd>１、您对陕西省地震局人才环境的总体评价是：</hd>
+            <bd>
+                <option>Ａ、好</option>
+                <option>Ｂ、较好</option>
+                <option>Ｃ、一般</option>
+                <option>Ｄ、差</option>
+            </bd>
+        </item>
+        <item type="dx">
+            <hd>２、您所在的单位（部门）领导对人才工作重视程度：</hd>
+            <bd>
+                <option>Ａ、重视</option>
+                <option>Ｂ、较重视</option>
+                <option>Ｃ、不够重视</option>
+                <option>Ｄ、不重视</option>
+            </bd>
+        </item>
+        <item type="sx">
+            <hd>8、2010年以来，您参加过的学术活动有（可多选）：</hd>
+            <bd>
+                <option>Ａ、国际性</option>
+                <option>Ｂ、全国性</option>
+                <option>Ｃ、省级</option>
+                <option>Ｄ、市级</option>
+                <option>Ｅ、县级</option>
+                <option>F、未参加学术活动</option>
+            </bd>
+        </item>
+        <item type="dx">
+            <hd>10、影响知识更新与继续教育的原因主要是：</hd>
+            <bd>
+                <option>Ａ、工作原因</option>
+                <option>Ｂ、健康原因</option>
+                <option>Ｃ、单位不够重视</option>
+                <other>Ｄ、其他</other>
+            </bd>
+        </item>
+        <item type="sx">
+            <hd>13、您认为影响本局人才成长的主要因素有（可多选）：</hd>
+            <bd>
+                <option>Ａ、缺乏培养措施</option>
+                <option>Ｂ、论资排辈观念严重</option>
+                <option>Ｃ、所在单位不能放手使用</option>
+                <option>Ｄ、工作环境条件限制</option>
+                <option>Ｅ、政策导向不利</option>
+                <option>Ｆ、社会认可支持差</option>
+                <option>Ｇ、生活负担重</option>
+                <option>Ｈ、人才自身不完善</option>
+                <other>I、其他</other>
+            </bd>
+        </item>
+        <item type="textarea">
+            <hd>23、您对我局开展人才工作有何建议（可另附纸）：</hd>
+            <bd>
+                <option></option>
+            </bd>
+        </item>
+    </section>
 </survey>
