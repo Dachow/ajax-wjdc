@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <survey>
     <description>
-        <notice>问卷填写说明</notice>
+        <notice>问卷填写说明:</notice>
         <p>（一）问卷采取无记名方式进行。</p>
         <p>（二）除有特别标明可多选外，其余均为单选题。</p>
         <p>（三）回答时，请在所选内容前打 “√”。</p>
@@ -80,6 +80,64 @@
                 <option>Ｄ、不重视</option>
             </bd>
         </item>
+        <item type="dx">
+            <hd>３、您对您的工作条件：</hd>
+            <bd>
+                <option>Ａ、满意</option>
+                <option>Ｂ、较满意</option>
+                <option>Ｃ、一般</option>
+                <option>Ｄ、不满意</option>
+            </bd>
+        </item>
+        <item type="dx">
+            <hd>４、您在所在单位（部门）作用发挥如何：</hd>
+            <bd>
+                <option>Ａ、好</option>
+                <option>Ｂ、较好</option>
+                <option>Ｃ、一般</option>
+                <option>Ｄ、不好</option>
+                <option>如不好，您认为主要原因在哪里：</option>
+                <option>Ｅ、领导不重视</option>
+                <option>Ｆ、人际关系复杂</option>
+                <option>Ｇ、专业不对口</option>
+                <option>Ｈ、工作条件限制</option>
+                <option>Ｉ、自身因素</option>
+                <other>Ｊ、其他</other>
+            </bd>
+        </item>
+        <item type="dx">
+            <hd>５、您认为目前你所属的人才队伍的生活待遇在社会中所处的位置：</hd>
+            <bd>
+                <option>Ａ、高了很多</option>
+                <option>Ｂ、高了一点</option>
+                <option>Ｃ、平均线上</option>
+                <option>Ｄ、低了一点</option>
+                <option>Ｅ、低了很多</option>
+            </bd>
+        </item>
+        <item type="dx">
+            <hd>６、您认为当前我局人才工作的薄弱环节主要在：</hd>
+            <bd>
+                <option>Ａ、观念滞后</option>
+                <option>Ｂ、政策不完善</option>
+                <option>Ｃ、综合环境差</option>
+                <option>Ｄ、待遇不高</option>
+                <other>Ｅ、其它</other>
+            </bd>
+        </item>
+        <item type="dx">
+            <hd>7、工作中您最大的需求是：</hd>
+            <bd>
+                <option>Ａ、科研经费</option>
+                <option>Ｂ、实验条件</option>
+                <option>Ｃ、积累经验</option>
+                <option>Ｄ、更新知识</option>
+                <option>Ｅ、领导重视</option>
+                <option>Ｆ、成果转化</option>
+                <other>G、其它</other>
+            </bd>
+        </item>
+
         <item type="sx">
             <hd>8、2010年以来，您参加过的学术活动有（可多选）：</hd>
             <bd>
@@ -91,13 +149,25 @@
                 <option>F、未参加学术活动</option>
             </bd>
         </item>
+        <item type="sx">
+            <hd>9、2010年以来，您每年平均脱产培训（可多选）：</hd>
+            <bd>
+                <option>Ａ、15天以上</option>
+                <option>Ｂ、5-10天</option>
+                <option>Ｃ、3-5天</option>
+                <option>Ｄ、有机会参加进修、培训，但单位未批准</option>
+                <option>Ｅ、没有机会</option>
+                <option>F、没有时间参加</option>
+                <other>G、其它</other>
+            </bd>
+        </item>
         <item type="dx">
             <hd>10、影响知识更新与继续教育的原因主要是：</hd>
             <bd>
                 <option>Ａ、工作原因</option>
                 <option>Ｂ、健康原因</option>
                 <option>Ｃ、单位不够重视</option>
-                <other>Ｄ、其他</other>
+                <other>D、其它</other>
             </bd>
         </item>
         <item type="sx">
@@ -112,6 +182,21 @@
                 <option>Ｇ、生活负担重</option>
                 <option>Ｈ、人才自身不完善</option>
                 <other>I、其他</other>
+            </bd>
+        </item>
+        <item type="sx">
+            <hd>22、您认为我局最紧缺的人才是（可多选）：</hd>
+            <bd>
+                <option>A、空间技术应用</option>
+                <option>B、现代网络技术</option>
+                <option>C 、工程管理和项目管理</option>
+                <option>D、数字地震技术</option>
+                <option>E、地震预测预报</option>
+                <option>F、地震速报、预警、区划</option>
+                <option>G、地震紧急救援</option>
+                <option>H、工程结构抗震</option>
+                <option>I、传媒和公共关系</option>
+                <other>J、其他</other>
             </bd>
         </item>
         <item type="textarea">

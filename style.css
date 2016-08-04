@@ -1,0 +1,66 @@
+#content {
+    font-family: "微软雅黑", sans-serif;
+}
+#page {
+    display: none;
+}
+form {
+    max-width: 80%;
+    margin: 0 auto;
+}
+section {
+    border-top: 1px dashed #E8E8E8;
+    /*border-bottom: 1px dashed #E8E8E8;*/
+    padding: 20px 0;
+}
+section:after {
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+#description .notice {
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+#description li {
+    padding: 10px 0;
+    width: 50%;
+    float: left;
+    list-style-type: none;
+    color: grey;
+}
+.title {
+    color: #24ACF1;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.notice, .title {
+    padding-bottom: 10px;
+}
+.items {
+    font-weight: bolder;
+    font-size: 1.1rem;
+    padding: 20px 0;
+}
+.items label {
+    display: block;
+    font-weight: normal;
+    ;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+#content > span {
+    padding: 5px;
+}
+
+#content > input {
+    /*display: block;
+    text-align: center;
+    background: #24ACF1;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;*/
+}
